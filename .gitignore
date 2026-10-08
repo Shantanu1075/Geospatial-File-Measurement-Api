@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Local persistence
+*.db
+*.db-wal
+*.db-shm
+
+# Uploaded files (never commit user data)
+uploads/*
+!uploads/.gitkeep
+
+.DS_Store
